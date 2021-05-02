@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glide Slider</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col-xl-12">
+
+          <!-- For brand section carousel start-->
+            <div class="glide-brand-carousel"> <!-- Use this class for  initialization & Make this div class overflow hidden -->
+                <div class="glide__track" data-glide-el="track"> <!-- Must be use data-glide-el attributes -->
+                    <div class="slider d-flex"> <!-- Use display flex for avoiding error-->
+                        <div class="single-item"> <!-- Then add single item as you want.-->
+                            <img src="assets/img/img5.jpg" alt="Img1">
+                        </div>
+                        <div class="single-item">
+                          <img src="assets/img/img2.jpg" alt="Img1">
+                        </div>
+                        <div class="single-item">
+                          <img src="assets/img/img6.jpg" alt="Img1">
+                        </div>
+                        <div class="single-item">
+                          <img src="assets/img/img4.jpg" alt="Img1">
+                        </div>
+                        <div class="single-item">
+                          <img src="assets/img/img5.jpg" alt="Img1">
+                        </div>
+                        <div class="single-item">
+                          <img src="assets/img/img6.jpg" alt="Img1">
+                        </div>
+                        <div class="single-item">
+                          <img src="assets/img/img7.jpg" alt="Img1">
+                        </div>
+                        <div class="single-item">
+                          <img src="assets/img/img2.jpg" alt="Img1">
+                        </div>
+                        <div class="single-item">
+                          <img src="assets/img/img6.jpg" alt="Img1">
+                        </div>
+                        <div class="single-item">
+                          <img src="assets/img/img4.jpg" alt="Img1">
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="glide__arrows" data-glide-el="controls"> <!-- Use  this data-glide-el attributes for controls  -->
+                  <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-arrow-left"></i></button> <!-- Use  this data-glide-dir attributes "< or >" for direction else button maynot  work! -->
+                  <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="glide__bullets" data-glide-el="controls[nav]"> <!-- Use  this data-glide-el attributes for controls in nav  -->
+                  <button class="glide__bullet" data-glide-dir="=0"></button>
+                  <button class="glide__bullet" data-glide-dir="=1"></button>
+                  <button class="glide__bullet" data-glide-dir="=2"></button>
+                  <button class="glide__bullet" data-glide-dir="=3"></button>
+                </div>
+            </div> 
+
+          <!-- For brand section carousel end-->
+
+
+<br>
+<br>
+
+          <!--Testimonial section glide slider -->
+
+          <div class="glide-testimonial"> <!-- Use this class for  initialization & Make this div class overflow hidden -->
+              <div class="glide__track" data-glide-el="track"> <!-- Must be use data-glide-el attributes -->
+                  <div class="slider d-flex"> <!-- Use display flex for avoiding error-->
+                        <div class="slider-items">           
+                          <div class="quote-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p class="content">Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed do eiu smod tempor incididunt ut la bore et gm suspen. maecenas accumsan .</p>
+                            <span></span>
+                            <h6>Arafat Jamil</h6>
+                            <p class="nicename">Chairman @ Wpsmasher</p>
+                          </div>  
+                        </div>  
+                        <div class="slider-items">           
+                          <div class="quote-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p class="content">Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed do eiu smod tempor incididunt ut la bore et gm suspen. maecenas accumsan .</p>
+                            <span></span>
+                            <h6>Arafat Jamil</h6>
+                            <p class="nicename">Chairman @ Wpsmasher</p>
+                          </div>  
+                        </div>
+                  </div>
+              </div>
+            
+              <div class="glide__arrows" data-glide-el="controls"><!-- Use  this data-glide-el attributes for controls  -->
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-arrow-left"></i></button><!-- Use  this data-glide-dir attributes "< or >" for direction else button maynot  work! -->
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-arrow-right"></i></button>
+              </div>
+              <div class="glide__bullets" data-glide-el="controls[nav]"> <!-- Use  this data-glide-el attributes for controls in nav  -->
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+              </div>
+          </div>
+
+          <!-- Testimonial section glide slider -->
+
+<br>
+<br>
+          <!-- Simple fullscreen slider -->
+
+          <div class="glide-fullscreen"><!-- Use this class for  initialization & Make this div class overflow hidden -->
+            <div class="glide__track" data-glide-el="track"> <!-- Must be use data-glide-el attributes -->
+                <div class="slider d-flex"> <!-- Use display flex for avoiding error-->
+                      <div class="single-image">
+                        <img src="assets/img/img1.jpg" alt="Image1">
+                      </div>
+                      <div class="single-image">
+                        <img src="assets/img/img5.jpg" alt="Image1">
+                      </div>
+                      <div class="single-image">
+                        <img src="assets/img/img2.jpg" alt="Image1">
+                      </div>
+                     
+                </div>
+            </div>
+          
+            <div class="glide__arrows" data-glide-el="controls"><!-- Use  this data-glide-el attributes for controls  -->
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-arrow-left"></i></button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-arrow-right"></i></button>
+            </div>
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+              <button class="glide__bullet" data-glide-dir="=0"></button>
+              <button class="glide__bullet" data-glide-dir="=1"></button>
+              <button class="glide__bullet" data-glide-dir="=2"></button>
+            </div>
+        </div>
+
+          <!-- Simple fullscreen slider -->
+
+
+<br>
+<br>
+
+        <!--  hero section glide slider -->
+        <div class="glide-hero"><!-- Use this class for  initialization & Make this div class overflow hidden -->
+          <div class="glide__track" data-glide-el="track"> <!-- Must be use data-glide-el attributes -->
+              <div class="slider d-flex">  <!-- Use display flex for avoiding error-->
+                <div class="hero-single-slider">
+                  <div class="container">
+                       <div class="row">
+                           <div class="col-xl-6 col-lg-6 col-md-6">
+                               <div class="slider-left-content">
+                                   <h1 class="animate__animated animate__fadeInLeft">Luxury<br>Shoes</h1>
+                                   <p class="animate__animated animate__fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo voluptatibus, voluptas
+                                       molestiae praesentium .</p>
+                                   <a href="#" class="animate__animated animate__fadeInRight">Shop Now</a>
+                               </div>
+                           </div>
+                           <div class="col-xl-6 col-lg-6 col-md-6 d-none d-md-block">
+                               <div class="slider-right-content animate__animated animate__fadeInRight">
+                                   <img src="assets/img/shoe-1.png" alt="Slider">
+                                   <span>$5.59</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="hero-single-slider">
+                <div class="container">
+                     <div class="row">
+                         <div class="col-xl-6 col-lg-6 col-md-6">
+                             <div class="slider-left-content">
+                                 <h1 class="animate__animated animate__fadeInLeft">Luxury<br>Shoes</h1>
+                                 <p class="animate__animated animate__fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo voluptatibus, voluptas
+                                     molestiae praesentium .</p>
+                                 <a href="#" class="animate__animated animate__fadeInRight">Shop Now</a>
+                             </div>
+                         </div>
+                         <div class="col-xl-6 col-lg-6 col-md-6 d-none d-md-block">
+                             <div class="slider-right-content animate__animated animate__fadeInRight">
+                                 <img src="assets/img/shoe-1.png" alt="Slider">
+                                 <span>$5.59</span>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             
+              </div>
+          </div>
+        
+          <div class="glide__arrows" data-glide-el="controls"><!-- Use  this data-glide-el attributes for controls  -->
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-arrow-left"></i></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-arrow-right"></i></button>
+          </div>
+          <div class="glide__bullets" data-glide-el="controls[nav]"><!-- Use  this data-glide-el attributes for navigation  -->
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+          </div>
+      </div>
+
+
+      <!-- hero section glide slider -->
+
+        </div>
+    </div>
+      
+  </div>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/glide.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

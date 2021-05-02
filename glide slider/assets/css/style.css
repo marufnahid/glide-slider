@@ -1,0 +1,194 @@
+
+/* Brand section type carousel */
+.slider {
+	justify-content: center;
+	align-items: center;
+}
+.single-item img {
+	width: 100%;
+}
+.glide__track {
+	overflow: hidden;
+}
+.glide-brand-carousel {
+	position: relative;
+}
+
+/* Brand section type carousel */
+
+/* ============================================================================================= */
+
+/* Testimonial section glide slider */
+
+
+.glide-testimonial {
+	position: relative;
+}
+.quote-content {
+	padding: 100px 80px 80px 80px;
+	border: 2px solid #f6f6f6;
+	margin: 25px;
+}
+.custom-row {
+	margin: 0px -15px;
+}
+.quote-content > i {
+	font-size: 50px;
+	color: aliceblue;
+    margin-left: -40px;
+    transition: all .5s;
+}
+.quote-content:hover p.content {
+	transition: .7s;
+	color: #013148;
+}
+.quote-content > p.content {
+	display: initial;
+	font-size: 18px;
+	margin-left: -15px;
+	line-height: 30px;
+	transition: all .7s;
+}
+.quote-content h6 {
+	font-size: 16px;
+	font-weight: 500;
+	color: #013148;
+	margin: 25px 0px 15px 0px;
+}
+.quote-content span {
+	content: "";
+	height: 3px;
+	width: 40px;
+	display: block;
+	background: #013148;
+	margin-top: 15px;
+}
+.quote-content:hover {
+	border: 2px solid #fff;
+	transition: all .5s;
+	box-shadow: -10px 10px 10px #f9f9f9, 10px 10px 10px #f9f9f9;
+}
+
+/* Testimonial section glide slider */
+/* ====================================================================================================== */
+
+
+
+
+
+/* Full screen glide slider  */
+.glide-fullscreen {
+	position: relative;
+}
+.single-image img {
+	width: 100%;
+}
+/* Full screen glide slider ends*/
+
+
+/* ======================================================================================================== */
+
+/* hero section glide slider */
+
+
+.glide-hero{
+	position: relative;
+}
+.slider-right-content img {
+	width: 56%;
+}
+
+
+.slider-left-content h1 {
+	font-size: 111px;
+	line-height: 150px;
+	letter-spacing: 17px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.slider-left-content p {
+	font-size: 30px;
+	font-weight: 300;
+	padding-right: 80px;
+	padding-bottom: 30px;
+	line-height: 40px;
+}
+
+.hero-slider a {
+	position: relative;
+	border: none;
+	background: transparent;
+	font-size: 25px;
+	color: #333;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.slider-left-content > a {
+	text-decoration: none;
+}
+
+.slider-left-content a:hover {
+	color: red;
+}
+
+.slider-left-content {
+	margin-top: 60px;
+}
+
+.slider-right-content {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	background: blanchedalmond;
+	border-radius: 50%;
+	height: 730px;
+	width: 700px;
+	margin-left: -100px;
+}
+.slider-right-content  span {
+	position: absolute;
+	top: 13%;
+	right: 0;
+	display: block;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	background: red;
+	text-align: center;
+	line-height: 120px;
+	font-size: 27px;
+	color: #fff;
+}
+/* hero section glide slider end*/
+/* =================================================================================== */
+
+/* common part for all slider */
+
+.glide__arrows {
+	position: absolute;
+	top: 42%;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.glide__bullets {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.glide__bullet {
+	background: #181bdf;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	line-height: 0;
+	margin: 0 5px;
+	padding: 0;
+	border: none;
+}
